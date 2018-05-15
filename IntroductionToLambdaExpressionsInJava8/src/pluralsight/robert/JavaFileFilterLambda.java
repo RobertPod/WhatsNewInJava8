@@ -16,3 +16,4 @@ public class JavaFileFilterLambda {
             System.out.println(f);
         }
     }
+}
