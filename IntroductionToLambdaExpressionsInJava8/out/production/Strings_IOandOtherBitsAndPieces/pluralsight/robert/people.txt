@@ -1,0 +1,15 @@
+Robert 59 M
+Franek 2 M
+Magda 34 F
+Pierwszak 1 M
+Drugak 2 F
+Trzeciak 3 M
+trójka 3 F
+Czwartek 4 F
+Piątak 5 M
+Szóstak 6 F
+Siudmak 7 M
+Ósmak 8 F
+dziewiątak 9 M
+Dziesiątak 10 F
+dziewiątka 9 F
