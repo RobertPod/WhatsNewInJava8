@@ -1,4 +1,5 @@
 Robert 59 M
+piąteczek 5 M
 Franek 2 M
 Magda 34 F
 Pierwszak 1 M
@@ -13,3 +14,5 @@ Siudmak 7 M
 dziewiątak 9 M
 Dziesiątak 10 F
 dziewiątka 9 F
+jedynka 1 F
+piątka 5 F

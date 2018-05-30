@@ -1,16 +1,14 @@
-package pluralsight.robert;
+package pluralsight.robert.model;
 
-import java.util.PrimitiveIterator;
-
-public class Pearson {
+public class Person {
     private String name;
     private int age;
     private String gender;
 
-    public Pearson() {
+    public Person() {
     }
 
-    public Pearson(String name, int age, String gender) {
+    public Person(String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -33,11 +31,11 @@ public class Pearson {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Pearson pearson = (Pearson) o;
+        Person person = (Person) o;
 
-        if (age != pearson.age) return false;
-        if (name != null ? !name.equals(pearson.name) : pearson.name != null) return false;
-        return gender != null ? gender.equals(pearson.gender) : pearson.gender == null;
+        if (age != person.age) return false;
+        if (name != null ? !name.equals(person.name) : person.name != null) return false;
+        return gender != null ? gender.equals(person.gender) : person.gender == null;
     }
 
     @Override
@@ -50,7 +48,7 @@ public class Pearson {
 
     @Override
     public String toString() {
-        return "Pearson{" +
+        return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
